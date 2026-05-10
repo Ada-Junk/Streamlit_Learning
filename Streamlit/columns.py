@@ -27,7 +27,7 @@ st.markdown("""
 with st.sidebar:
     st.header("⚙️ 工具配置")
     # 可以预留之前使用的 TMT API 密钥输入
-    secret_key = st.text_input("vcJtHSSGqBHBoGVWJsCIAoESUJRUYhkk", type="password")
+    secret_key = st.text_input("APIKey", type="password")
 
 # 主界面布局
 col1, col2 = st.columns([1, 1])
